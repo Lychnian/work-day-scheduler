@@ -1,7 +1,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  padding-bottom: 40px;
 }
 
 html, body {
@@ -11,10 +10,21 @@ html, body {
   border: 20px solid #06aed5; /* blue border */
 }
 
+h1 {
+  font-weight: bolder;
+}
+
+p.lead {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#currentDay {
+  color: #ff6961
+}
+
 .container-lg px-5 {
   height: auto;
-  padding: 0; /* Remove padding to span the full width */
-  padding-bottom: 40px;
 }
 
 textarea {
@@ -71,3 +81,40 @@ textarea {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+
+#hour-17 {
+  padding-bottom: 20px;
+}
+
+/* Media queries */
+
+/* The border will be alizarin crimson */
+
+@media only screen and (max-width: 992px) {
+    
+  html, body {
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: 20px solid #E32636;
+  }
+  
+  }
+  
+  
+  /* The border will be crayola green */
+  
+  @media only screen and (max-width: 600px) {
+  
+  html, body {
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: 20px solid #1CAC78;
+  }
+  
+  }
+  
+  
+  
+  
