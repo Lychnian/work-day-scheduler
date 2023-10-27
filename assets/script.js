@@ -42,4 +42,12 @@ $(function () {
     });
   }
 
+  // Event listener for save buttons
+  $(saveBtnElement).on("click", function () {
+    var blockId = $(this).closest(timeblockElement).attr("id");
+    var description = $(this).siblings(descriptionElement).val();
+    localStorage.setItem(blockId, description);
+  });
+
+
 });
