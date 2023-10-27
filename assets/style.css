@@ -4,10 +4,11 @@ body {
 }
 
 html, body {
+  width: 100%;
   height: auto;
   margin: 0;
   padding: 0;
-  border: 20px solid #06aed5; /* blue border */
+  border: 30px solid #06aed5; /* blue border */
 }
 
 header {
@@ -27,9 +28,13 @@ p.lead {
   color: #ff6961
 }
 
-.container-lg px-5 {
-  height: auto;
-  padding: 0;
+.container-lg {
+  width: 100%;
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 0; 
+  padding-right: 0;
+  padding-bottom: 20px;
 }
 
 textarea {
