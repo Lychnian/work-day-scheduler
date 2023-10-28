@@ -49,5 +49,10 @@ $(function () {
     localStorage.setItem(blockId, description);
   });
 
+  // Initialize the scheduler when the page loads
+  displayCurrentDate(); // Display the current date in the header
+  updateTimeBlockColors(); // Update time-block colors based on current time
+  loadSavedEvents(); // Load saved events from localStorage
+  
 
 });
