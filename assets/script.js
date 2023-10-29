@@ -16,7 +16,9 @@ $(function () {
 
   // Function to update time-block colors based on current time
   function updateTimeBlockColors() {
+    // Iterate over each time block element and add appropriate class based on the current hour
     $(timeBlockElement).each(function () {
+      // Extract the hour from the time block ID
       var blockHour = parseInt(this.id.split("-")[1]);
 
       // Remove existing classes
@@ -35,9 +37,13 @@ $(function () {
 
   // Function to load saved events from localStorage
   function loadSavedEvents() {
+    // Iterate over each time block, retrieve the saved event from localStorage, and set the description value
   $(timeBlockElement).find(descriptionElement).each(function () {
+    // Get the ID of the parent time block
     var blockId = $(this).closest(timeBlockElement).attr("id");
+    // Retrieve the saved event from localStorage using the block ID as the key
     var savedEvent = localStorage.getItem(blockId);
+    // Set the value of the description field with the saved event text
     $(this).val(savedEvent);
     });
   }
