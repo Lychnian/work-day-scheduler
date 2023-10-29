@@ -36,7 +36,7 @@ $(function () {
   // Function to load saved events from localStorage
   function loadSavedEvents() {
   $(timeBlockElement).find(descriptionElement).each(function () {
-    var blockId = $(this).closest(timeblockElement).attr("id");
+    var blockId = $(this).closest(timeBlockElement).attr("id");
     var savedEvent = localStorage.getItem(blockId);
     $(this).val(savedEvent);
     });
@@ -44,8 +44,11 @@ $(function () {
 
   // Event listener for save buttons
   $(saveBtnElement).on("click", function () {
-    var blockId = $(this).closest(timeblockElement).attr("id");
+    // Get the ID of the parent time block
+    var blockId = $(this).closest(timeBlockElement).attr("id");
+    // Get the description from the sibling element
     var description = $(this).siblings(descriptionElement).val();
+    // Save the even in localStorage with the block ID as the key
     localStorage.setItem(blockId, description);
   });
 
@@ -54,5 +57,6 @@ $(function () {
   updateTimeBlockColors(); // Update time-block colors based on current time
   loadSavedEvents(); // Load saved events from localStorage
   
-
-});
+  // Set interval to update time-block colors every minute (60000 milliseconds)
+  setInterval(updateTimeBlockColors, 60000);
+}); 
