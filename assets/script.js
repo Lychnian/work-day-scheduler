@@ -10,8 +10,9 @@ $(function () {
         localStorage.clear();
         // Save the current date in local storage
         localStorage.setItem("currentDate", currentDate);
+      }
     }
-} 
+ 
 
 // Call function to check and clear events when the page loads
 checkAndClearEvents();

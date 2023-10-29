@@ -1,7 +1,7 @@
 /* General styling for body */
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 /* Styling for body and HTML elements */
@@ -30,7 +30,9 @@ p.lead {
 
 /* Styling for current day element */
 #currentDay {
-  color: #ff6961
+  color: #ff6961;
+  font-size: 40px;
+  text-align: center;
 }
 
 /* Styling for large container */
@@ -71,6 +73,9 @@ textarea {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
 }
 
 /* Styling for past, present, and future time block */
