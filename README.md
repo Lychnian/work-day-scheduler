@@ -36,15 +36,15 @@ Visit the live application: **Work Day Scheduler** at  https://Lychnian.github.i
 ## Screenshots
 
 
-Laptop and PC view:
+LAPTOP AND PC VIEW:
 ![onlaptoppc](https://github.com/Lychnian/work-day-scheduler/assets/140586279/d71c44b7-f17e-46e6-87e9-ba40b0e8df16)
 
 
-Responsive view for Tablets:
+RESPONSIVE VIEW FOR TABLETS/ USE ON WEEKENDS TOO!:
 ![ontablets](https://github.com/Lychnian/work-day-scheduler/assets/140586279/35073c6e-c164-44ae-9179-6939ac016101)
 
 
-Responsive view for mobile devices:
+RESPONSIVE VIEW FOR MOBILE/ USE ON WEEKENDS TOO!:
 ![onmobile](https://github.com/Lychnian/work-day-scheduler/assets/140586279/38dbb0eb-cafd-447e-b79b-077ec92eedeb)
 
 
