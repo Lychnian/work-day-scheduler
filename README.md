@@ -11,7 +11,7 @@ N/A
 
 ## Usage
 
-Open the application by visiting the webpage at: https://Lychnian.github.io/work-day-scheduler/
+Open the application by visiting the webpage at: https://lychnian.github.io/work-day-scheduler/
 
 When you open the planner, the current day is displayed at the top of the calendar.
 
@@ -30,7 +30,7 @@ Upon refreshing the page, closing the browser or navigating from the page, the e
 
 ## Website
 
-Visit the live application: **Work Day Scheduler** at  https://Lychnian.github.io/work-day-scheduler/
+Visit the live application: **Work Day Scheduler** at  https://lychnian.github.io/work-day-scheduler/
 
 
 ## Screenshots
