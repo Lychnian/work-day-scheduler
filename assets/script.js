@@ -1,9 +1,26 @@
 $(function () {
 
-  // Defined Variables
+  // Function to check if it's a new day and clear events if necessary
+    function checkAndClearEvents() {
+      var savedDate = localStorage.getItem("currentDate");
+      var currentDate = dayjs().format("YYYY-MM-DD");
+
+      if (savedDate !== currentDate) {
+        // Clear events if it's a new day
+        localStorage.clear();
+        // Save the current date in local storage
+        localStorage.setItem("currentDate", currentDate);
+    }
+} 
+
+// Call function to check and clear events when the page loads
+checkAndClearEvents();
+
   // Variables to store the current hour and dates using Day.js
   var currentHour = dayjs().hour();
   var currentDate = dayjs().format("dddd, MMMM D");
+
+  // Defined Variables
   var timeBlockElement = ".time-block";
   var descriptionElement = ".description";
   var saveBtnElement = ".saveBtn";
@@ -13,10 +30,10 @@ $(function () {
   function displayCurrentDate() {
     currentDayElement.text(currentDate);
   }
-
+    
   // Function to update time-block colors based on current time
   function updateTimeBlockColors() {
-    // Iterate over each time block element and add appropriate class based on the current hour
+      // Iterate over each time block element and add appropriate class based on the current hour
     $(timeBlockElement).each(function () {
       // Extract the hour from the time block ID
       var blockHour = parseInt(this.id.split("-")[1]);
