@@ -1,6 +1,7 @@
 # WORK DAY SCHEDULER
 
 A straightforward calendar application that empowers users to efficiently plan their work day. This application addresses the critical need for effective time management, solving the challenge of organizing a very busy schedule. Motivated by the desire to enhance work productivity, this application allows users to add important events for each hour of a typical working day of 9 am to 5 pm. The application contains updated HTML and CSS powered by jQuery, to ensure a seamless user experience. At a glance, users can identify the current day displayed prominently at the top of the calendar. Time blocks are color-coded to distinguish between past, present, and future events. Also, events entered by the user are saved persistently in local storage, guaranteeing that valuable data remains intact even after the page is refreshed.
+Can even use to organize your busy weekend day schedule!
 
 
 ## Installation
@@ -32,7 +33,19 @@ Upon refreshing the page, closing the browser or navigating from the page, the e
 Visit the live application: **Work Day Scheduler** at  https://Lychnian.github.io/work-day-scheduler/
 
 
-## Screenshot
+## Screenshots
+
+
+Laptop and PC view:
+![onlaptoppc](https://github.com/Lychnian/work-day-scheduler/assets/140586279/d71c44b7-f17e-46e6-87e9-ba40b0e8df16)
+
+
+Responsive view for Tablets:
+![ontablets](https://github.com/Lychnian/work-day-scheduler/assets/140586279/35073c6e-c164-44ae-9179-6939ac016101)
+
+
+Responsive view for mobile devices:
+![onmobile](https://github.com/Lychnian/work-day-scheduler/assets/140586279/38dbb0eb-cafd-447e-b79b-077ec92eedeb)
 
 
 ## Credits
