@@ -2,6 +2,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
+  font-weight: bold;
 }
 
 /* Styling for body and HTML elements */
@@ -120,22 +121,53 @@ textarea {
     padding: 0;
     border: 20px solid #E32636;
   }
-  
-  }
+}
   
   
   /* Stylling for screen width up to 600 px. The border will be crayola green */
-  
+
   @media only screen and (max-width: 600px) {
   
   html, body {
     height: auto;
     margin: 0;
     padding: 0;
-    border: 20px solid #1CAC78;
+    border: 8px solid #1CAC78;
   }
   
+  .container-lg .px-5 {
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 0; 
+    padding-right: 0;
+    padding-bottom: 20px;
+    margin-right: 0 ;
+    margin: 0px;
   }
+
+  h1 {
+    font-size: 20px;
+    font-weight: bolder;  
+  }
+
+  p.lead {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  #currentDay {
+    color: #ff6961;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .hour {
+    font-size: 10px;
+    font-weight: bold;
+    text-align: left;
+  }
+}
   
   
   
